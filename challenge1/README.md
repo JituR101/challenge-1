@@ -44,3 +44,17 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
 
+
+## Screenshots
+
+## Desktop active
+![Desktop website active](./screenshots/desktop-active.PNG)
+
+## Desktop preview
+![Desktop website preview](./screenshots/desktop.PNG)
+
+## Mobile active
+![Mobile website active](./screenshots/mobile-active.jpeg)
+
+## Mobile preview
+![Mobile website preview](./screenshots/mobile.jpeg)
