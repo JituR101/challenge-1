@@ -3,19 +3,165 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Article</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;500;700&display=swap" rel="stylesheet">
+  <style>
+  	body{
+    background-color: #ECF2F8;
+  }
+    #aut #aut_img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-top: 185px;
+    margin-left: -345px;
+  }
+  #aut #aut_name{
+    color: #4E5765;
+    float: left;
+    font-family: 'Manrope',sans-serif;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: -70px;
+    margin-left: 340px;
+    font-weight: 700;
+  }
+  #aut #date{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 500px;
+    color: #4E5765;
+    opacity: 0.7;
+    float: left;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 40px;
+    margin-left: 340px;
+    margin-top: -50px;
+  }
+  #center_img{
+    z-index: 1;
+    height: 267px;
+    width: 720px;
+    background-color: white;
+    margin-left: 340px;
+    margin-top: 247px;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 5px 5px 16px -4px rgba(158,175,194,1);
+  }
+  #center_img #comment_img{
+    height: 267px;
+    width: 288px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+  }
+  #center_img #content_heading{
+    color: #4E5765;
+    float: left;
+    font-family: 'Manrope',sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: -10px;
+    font-weight: 700;
+  }
+  #center_img #content_c{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 500px;
+    color: #4E5765;
+    opacity: 0.7;
+    float: left;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 40px;
+    margin-left: 290px;
+    margin-top: -160px;
+  }
+  #share {
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-left: -60px;
+    margin-top: 450px;
+    display: inline-block;
+    background-color: #ECF2F8;
+  }
+  #share img{
+    margin-left: 8px;
+    margin-top: 7px;
+  }
+  #share:hover{
+    background-color: #6D7F97;
+  }
+  #share:hover img{
+    filter: brightness(1000);
+  }
+  #share #hid {
+  visibility: hidden;
+  z-index: 10;
+  background-color: #4E5765;
+  color: #ECF2F8;
+  width: 200px;
+  padding: 15px 20px 15px 20px;
+  font-family: 'Manrope' , sans-serif;
+  font-weight: 200;
+  letter-spacing: 8px;
+  font-size: 13px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 16px -4px rgba(158,175,194,1);
+  text-align: center;
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -133px;
+}
+#share #hid::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: 2px;
+  border-width: 10px;
+  content: "";
+  border-style: solid;
+  border-color: #4E5765 transparent transparent transparent;
+}
+#share:hover #hid{
+  visibility: visible;
+}
+  </style>
 </head>
 <body>
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-  
+	<div id="center_img">
+		<img id="comment_img" src="C:\Program Files\Git\challenges\challenge1\images\drawers.jpg" alt="drawers">
+		<pre><p id="content_heading">
+Shift the overall look and feel by
+adding these wonderful touches to 
+furniture in your home.</p></pre>
+		<pre><p id="content_c">
+Ever been in a room and felt like something was missing?
+Perhaps it felt slightly bare and uninviting. I’ve got some
+simple tips to help you make any room feel complete.	
+		</p></pre>
+		<div id="aut">
+			<img src="C:\Program Files\Git\challenges\challenge1\images\avatar-michelle.jpg" id="aut_img" alt="Michelle">
+			<p id="aut_name">Michelle Appleton</p>
+			<p id="date">28 Jun 2020</p>
+		</div>
+	</div>
+  <div id="share">
+    <img src="C:\Program Files\Git\challenges\challenge1\images\icon-share.svg" >
+    <span id="hid">
+      <sup>SHARE</sup>
+      <img src="C:\Program Files\Git\challenges\challenge1\images\icon-facebook.svg" alt="facebook icon">
+      <img src="C:\Program Files\Git\challenges\challenge1\images\icon-twitter.svg" alt="twitter icon">
+      <img src="C:\Program Files\Git\challenges\challenge1\images\icon-pinterest.svg" alt="pinterest icon">
+    </span>
+  </div>
 </body>
 </html>
