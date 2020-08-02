@@ -1,0 +1,241 @@
+/*COLOR PALLETTE:
+    GREEN: #3ED4AF
+    OFF-WHITE: #F7FCFD
+    another off - white: #ededf0
+    BLACK: #000000
+    */
+
+
+body
+{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*Background colors and font colors*/
+#introduction, #technologies, #specialty, #projects, #cta
+{
+    padding: 15%;
+}
+#introduction, #technologies
+{
+    background-color: #3ED4AF;
+    color: #000;
+}
+#specialty, #projects
+{
+    background-color: #EDEDF0;
+    color: #3ED4AF;
+}
+#cta
+{
+    background-color: #000;
+    color: #3ED4AF;
+}
+
+/*Introduction Section*/
+
+#introduction h1
+{
+    font-weight: 900;
+    font-size: 5rem;
+    letter-spacing: 1rem;
+}
+#introduction h2
+{
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    position: relative;
+    top: 1rem;
+}
+
+/*Specialty Section*/
+#specialty strong
+{
+    color: #000;
+}
+#specialty h2
+{
+    padding: 0rem 0 7rem;
+    word-spacing: 0.5rem;
+    line-height: 1.5;
+}
+#specialty figure
+{
+    color: #075a10;
+}
+#specialty figure .fa, #technologies figure .fa
+{
+    padding: 0.2rem;
+}
+
+/*Technologies Section*/
+#technologies
+{
+    position: relative;
+    color: #fff;
+    padding: 7% 15% 15%;
+}
+#technologies h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+#technologies h2
+{
+    position: absolute;
+    bottom: 4rem;
+    right: 19%;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+#technologies .row
+{
+    position: relative;
+    top: 6rem;
+    margin-bottom: 4rem;
+    color: #fff;
+}
+
+#cta, #projects, #about
+{
+    padding: 7% 15% 15%;
+}
+
+/*Projects section*/
+
+.website-screenshot
+{
+    width: 90%;
+}
+.website-screenshot:hover
+{
+    width: 100%;
+    border: 3px solid black;
+}
+#projects .row
+{
+    padding-top: 7%;
+}
+#projects .row h3
+{
+    font-size: 1rem;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+/*Call to action*/
+#cta h1
+{
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.5rem;
+}
+#cta h2
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    word-spacing: 0.2rem;
+    text-transform: capitalize;
+}
+#cta .row
+{
+    padding: 10% 14% 4%;
+}
+.social-media-icon
+{
+    margin-left: 6rem;
+}
+#cta a
+{
+    color: #3ED4AF;
+}
+
+/*About sections*/
+#about h1
+{
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+}
+#about p
+{
+    text-transform: none;
+    font-size: 1.5rem;
+}
+#about .row
+{
+    padding-top: 4rem;
+}
+.profile-image
+{
+    width: 80%;
+    border-radius: 100%;
+}
+.project-separating-line
+{
+    display: none;
+}
+footer
+{
+    text-transform: none;
+    padding-bottom: 4rem;
+    color: #9ea2a5;
+}
+footer a
+{
+    color: #14a25a;
+}
+
+/*Responsiveness*/
+@media (max-width: 500px)
+{
+    header, section, footer
+    {
+        display: inline-block;
+        width: 120vw;
+    }
+
+    #cta .col-4
+    {
+        padding-top: 2rem;
+    }
+    .social-media-icon
+    {
+        margin: 0;
+    }
+
+    #introduction h1, #cta h1
+    {
+        font-size: 4rem;
+        letter-spacing: normal;
+        position: static;
+    }
+    #technologies
+    {
+        padding-bottom: 40%;
+    }
+    #cta
+    {
+        padding: 10% 5%;
+    }
+    .project-separating-line
+    {
+        display: block;
+        width: 100%;
+        border-top: 1px solid #0000003b;
+    }
+    #responsive-icons, .technologies-second-row
+    {
+        margin-top: 3rem;
+    }
+    .profile-image
+    {
+        margin-bottom: 1rem;
+    }
+
+}
