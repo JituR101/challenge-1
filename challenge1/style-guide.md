@@ -9,12 +9,12 @@ The designs were created to the following widths:
 
 ## Colors
 
-- Very Dark Grayish Blue: #4E5765)
+- Very Dark Grayish Blue: #4E5765
 - Desaturated Dark Blue: #6D7F97
-- Grayish Blue: #	9EAFC2
+- Grayish Blue: #9EAFC2
 - Light Grayish Blue: #ECF2F8
 
-
+#49556d
 ## Typography
 
 ### Body Copy
